@@ -1,0 +1,9 @@
+git remote add origin https://github.com/varundineshan/dotnetmvc.git
+git pull origin master --allow-unrelated-histories
+git push origin master
+
+--------------------
+git add .
+git commit -m "initial commit"
+git push origin master
+
