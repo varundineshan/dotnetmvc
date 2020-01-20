@@ -1,0 +1,23 @@
+﻿@{
+    Layout=null;
+}
+@model HelloApp.Models.FormModel   
+    <html>
+    <body>
+        
+        <form method="post" asp-action="Create" asp-controller="home">
+
+            <label asp-for="name">User Name:</label>
+            <input asp-for="name" placeholder="Your name goes here" /><br />
+            <label asp-for="age">Age:</label>
+            <input asp-for="age" placeholder="Your age goes here" /><br />
+            <label asp-for="email">Email:</label>
+            <input asp-for="email" placeholder="Your email goes here" /><br />
+
+            <input type="submit" value="Submit" class="submit" />
+        </form>
+            
+    </body>
+    </html>
+
+
